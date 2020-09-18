@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Food - доставка еды на дом</title>
+    <!-- ! fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ! style CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ! START CONTAINER -->
+    <div class="container">
+
+        <!-- ! START HEADER -->
+        <header class="header">
+            <a class="animated fadeInLeft delay-1s logotype"><img src="img/logo.svg" alt="logo" class="logo"></a>
+            <input type="text" class="input address-input animated fadeInDown delay-1s" placeholder="Адрес доставки">
+            <div class="buttons animated fadeInRight delay-1s">
+                <span class="user-name"></span>
+                <button class="button btn-primary btn-auth">
+                    <img src="img/user.svg" alt="user" class="btn-icon">
+                    <span class="btn-text">Войти</span>
+                </button>
+                <button class="button btn-shop animated swing delay-2s duration-2s" id="cart-btn">
+                    <img src="img/shopcar.svg" alt="shop" class="btn-icon">
+                    <span class="btn-text">Корзина</span>
+                </button>
+                <button class="button btn-primary btn-out animated swing delay-2s duration-2s">
+                    <i class="fas fa-door-open"></i>
+                    <span class="btn-text">Выйти</span>
+                </button>
+            </div>
+        </header>
+        <!-- ! END HEADER -->
+
+    </div>
+    <!-- ! END CONTAINER -->
+
+        <!-- ! START MAIN -->
+        <main class="main">
+            <!-- ! START CONTAINER -->
+            <div class="container">
+                <!-- ! START SECTION INFO -->
+                <div class="container-promo swiper-container">
+                    <div class="swiper-wrapper">
+                            <section class="swiper-slide info-us pizza">
+                                <h1 class="info-title">Онлайн-сервис <br> доставки еды на дом</h1>
+                                <p class="info-text">
+                                    Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
+                                </p>
+                            </section>
+                            <section class="swiper-slide info-us kebab">
+                                <h1 class="info-title">Шашлыки на майские <br> со скидкой 35%</h1>
+                                <p class="info-text">
+                                    Закажите шашлыки в любом ресторане до 10 мая и получите скидку по промокоду OMAGAD
+                                </p>
+                            </section>
+                            <section class="swiper-slide info-us vegetables">
+                                <h1 class="info-title">Скидка 20% на всю еду <br> по промокоду LOVE.JS</h1>
+                                <p class="info-text">
+                                    Блюдо из ресторана привезут вместе с двумя подарочными книгами по фронтенду
+                                </p>
+                            </section>
+                            <section class="swiper-slide info-us sushi">
+                                <h1 class="info-title">Сеты со скидкой до 30% <br> в ресторанах</h1>
+                                <p class="info-text">
+                                    Скидки на сеты до 30 мая по промокоду DADADA
+                                </p>
+                            </section>
+                    </div>
+                    <!-- ! END SECTION INFO -->
+                </div>
+                
+
+                <!-- ! START SECTION RESTAURANTS -->
+                <section class="restaurants">
+                    <div class="section-heading">
+                        <h2 class="section-title animated fadeIn delay-1s">Рестораны</h2>
+                        <input type="text" class="input-search animated fadeIn delay-1s" placeholder="Поиск блюд и ресторанов">
+                    </div>
+                    <!-- ? start cards -->
+                    <div class="cards wow fadeInUp cards-restaurants" data-wow-delay="2s">
+                        
+                    </div>
+                    <!-- ? end cards -->
+
+                </section>
+                <!-- ! END SECTION RESTAURANTS -->
+
+                <section class="restaurants menu hide">
+                    <div class="section-heading">
+                        <h2 class="section-title animated fadeIn delay-1s">Пицца плюс</h2>
+                        <div class="card-info rest">
+                            <div class="rating animated heartBeat delay-2s">
+                                <img src="img/rating.svg" alt="star" class="rating-star">4.5
+                            </div>
+                            <div class="price animated fadeIn delay-1s">От 100 ₴</div>
+                            <div class="category animated fadeIn delay-1s">Пицца</div>
+                        </div>
+                    </div>
+
+                    <!-- ? start cards -->
+                    <div class="cards cards-menu">
+                        
+                    </div>
+                    <!-- ? end cards -->
+
+                </section>
+                <!-- ! END SECTION RESTAURANTS -->
+            </div>
+            <!-- ! END CONTAINER -->
+        </main>
+        <!-- ! END MAIN -->
+
+
+    <!-- ! START FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-block">
+                    <img src="img/logo.svg" alt="logo" class="logo-footer logo">
+                    <nav class="footer-nav">
+                        <a href="#" class="footer-link">Ресторанам</a>
+                        <a href="#" class="footer-link">Курьерам</a>
+                        <a href="#" class="footer-link">Пресс&nbsp-&nbspцентр</a>
+                        <a href="#" class="footer-link">Контакты</a>
+                    </nav>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><img src="img/instagram.svg" alt="instagram"></a>
+                        <a href="#" class="social-link"><img src="img/facebook.svg" alt="facebook"></a>
+                        <a href="#" class="social-link"><img src="img/VKontakte.svg" alt="VKontakte"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- ! END FOOTER -->
+
+    <!-- ! START MODAL -->
+    <div class="modal modal-auth">
+        <div class="modal-dialog modal-dialog-auth">
+
+            <div class="modal-header">
+                <h3 class="modal-title">Корзина</h3>
+                <button class="close">&times;</button>
+            </div>
+
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <span class="modal-prisetag"><p class="prise-tag">0</p><p class="nam">₽</p></span>
+                <div class="footer-btns">
+                    <button class="button btn-primary btn-369">Оформить заказ</button>
+                    <button class="button clear-cart">Отмена</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ! END MODAL -->
+
+    <!-- ! MODAL AUTH -->
+    <div class="modal" id="modal-auth">
+        <div class="modal-dialog modal-dialog-auth">
+            <div class="modal-body modal-body-auth">
+                <div class="modal-header">
+                    <h3 class="modal-title">Авторизация</h3>
+                    <button class="close close-auth">&times;</button>
+                </div>
+                <form id="logInForm">
+                    <div class="login-block">
+                        <span class="login-text">Login</span>
+                        <input type="text" class="login">
+                    </div>
+                    <div class="pass-block login-block">
+                        <span class="parol-text login-text">Password</span>
+                        <input type="password" class="password">
+                    </div>
+                     <div class="modal-footer">
+                        <div class="footer-btns">
+                            <button class="button btn-primary btn-369" id="button-modal-auth" type="submit">Войти</button>
+                        </div>
+                    </div>
+                </form>
+                
+            </div>
+           
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="JS/wow.min.js"></script>
+    <script src="JS/index.js"></script> 
+</body>
+</html>

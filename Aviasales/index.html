@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aviasales</title>
+	 <!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1 class="name">Aviasales</h1>
+
+	<main>
+
+		<section class="wrapper">
+			<form class="form-search">
+				<div class="wrapper__search">
+
+					<div class="input" style="display: block;">
+						<label>Откуда
+							<input type="text" class="input__cities-from" required>
+						</label>
+						<ul class="dropdown dropdown__cities-from">
+
+						</ul>
+					</div>
+
+					<div class="input">
+						<label>Куда
+							<input type="text" class="input__cities-to" required>
+						</label>
+						<ul class="dropdown dropdown__cities-to">
+
+						</ul>
+					</div>
+
+					<div class="input input__cities-from">
+						<label>Отправление
+							<input type="date" class="input__date-depart" required>
+						</label>
+					</div>
+				</div>
+
+				<div class="wrapper__button">
+					<button type="button" class="button button__search" id="seach-btn">
+						<span class="button__search-text">Найти билеты</span>
+					</button>
+				</div>
+
+			</form>
+		</section>
+
+		<div class="download">
+			<div class="preloader-wrapper active">
+				<div class="spinner-layer spinner-blue-only">
+				  <div class="circle-clipper left">
+					<div class="circle"></div>
+				  </div><div class="gap-patch">
+					<div class="circle"></div>
+				  </div><div class="circle-clipper right">
+					<div class="circle"></div>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="div-bilet">
+			<div class="bilet">
+				<span class="name-company">Aviasales</span>
+				<div class="bilet-from-to">
+					<h4 class="cityFrom"><p class="from">From:  </p><p class="cityFrom-value"></p></h4>
+					<h4 class="cityTo"><p class="to">To:  </p><p class="cityTo-value"></p></h4>
+				</div>
+				<h2 class="oclock"></h2>
+				<div class="bilet-info">
+					<h3 class="bilet-class"></h3>
+					<div class="ico">
+						<i class="material-icons icon">flight_takeoff</i>
+					</div>
+					<span class="data-code">
+						<span class="data"><p>Date:</p><p class="data-value"></p></span>
+						<span class="code"><p>Code: </p><p class="code-value"></p></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+
+
+	</main>
+	<script src="script.js"></script>
+	<script src="main.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>	
+	
+	
+	
+	<!-- <section class="wrapper">
+
+			<section class="wrapper__ticket" id="cheapest-ticket">
+				<h2>Самый дешевый билет на выбранную дату</h2>
+				
+			</section>
+
+			<section class="block__ticket" id="other-cheap-tickets">
+				<h2>Самые дешевые билеты на другие даты</h2>
+			</section>
+		</section> -->
+	<!-- <h3 class="agent">Aviakassa</h3>
+		<div class="ticket__wrapper">
+			<div class="left-side">
+				<a href="https://www.aviasales.ru/search/SVX2905KGD1" class="button button__buy">Купить
+					за 19700₽</a>
+			</div>
+			<div class="right-side">
+				<div class="block-left">
+					<div class="city__from">Вылет из города:
+						<span class="city__name">Екатеринбург</span>
+					</div>
+					<div class="date">29 мая 2020 г.</div>
+				</div>
+
+				<div class="block-right">
+					<div class="changes">Без пересадок</div>
+					<div class="city__to">Город назначения:
+						<span class="city__name">Калининград</span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+

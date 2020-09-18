@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <span class="logo">WEATHER</span>
+            <div class="menu">
+                <a href="#" class="link">Cities</a>
+                <a href="#" class="link">Weather News</a>
+                <a href="#" class="link">Contacts</a>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-container">
+                <div class="search-city">
+                    <span class="city-title">Kyiv</span>
+                    <div class="block-search">
+                        <input type="text" class="search" placeholder="Search">
+                        <button class="btn-search"><i class="fas fa-search"></i></button>
+                    </div>
+                    
+                </div>                
+                <span class="date"></span>
+                <div class="time">
+                    <span class="time-text">6:00</span>
+                    <span class="time-text">10:00</span>
+                    <span class="time-text">14:00</span>
+                    <span class="time-text">18:00</span>
+                    <span class="time-text">22:00</span>
+                    <span class="time-text">2:00</span>
+                </div>
+                <div class="weather-img">
+                    <img src="img/rain.jpg" alt="weather" class="img">
+                    <img src="img/snow.jpg" alt="weather" class="img">
+                    <img src="img/storm.jpg" alt="weather" class="img">
+                    <img src="img/sun.jpg" alt="weather" class="img">
+                    <img src="img/sun.jpg" alt="weather" class="img">
+                    <img src="img/sun.jpg" alt="weather" class="img">
+                </div>
+                <div class="info">
+                    <span class="info-text"><p class="text">Wind speed:</p><p class="speed"></p><p class="ind">m/s 💨</p></span>
+                    <span class="info-text"><p class="text">Air temperature:</p><p class="temp"></p><p class="ind">🌡️</p></span>
+                    <span class="info-text"><p class="text">Rainfall:</p><p class="rainfall"></p><p class="ind">mm 💧</p></span>
+                    <span class="info-text"><p class="text">Atmospheric pressure:</p><p class="pressure"></p><p class="ind">mm 〽️</p></span>
+                </div>
+            </div>
+            
+        </main>
+        <footer class="footer">
+            <div class="left-block-link">
+                <a href="#" class="foo-link">©️ WEATHER</a>
+                <a href="#" class="foo-link">Privacy</a>
+                <a href="#" class="foo-link">Leave a review</a>
+                <a href="#" class="foo-link">Advertising</a>
+            </div>
+            <div class="right-block-link">
+                <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
